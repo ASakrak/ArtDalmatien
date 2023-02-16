@@ -326,3 +326,23 @@ a:active {
     text-decoration: none;
 
 }
+
+@media (max-width: 375px) {
+
+
+
+    .test {
+        padding: 250px 0;
+    }
+
+
+    .hh1 {}
+
+    .text {
+        display: center;
+        font-weight: 200;
+        font-size: 15px;
+    }
+
+
+}
