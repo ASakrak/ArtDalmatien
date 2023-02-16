@@ -64,14 +64,14 @@ html {
 
 
 .text:before {
-    left: 3px;
+    left: 2px;
     text-shadow: -2px 0 rgb(105, 105, 105);
     animation: glitch-1 3s infinite reverse;
 }
 
 .text:after {
 
-    left: -3px;
+    left: -2px;
     text-shadow: -2px 0 rgb(255, 255, 255);
     animation: glitch-2 3s linear infinite reverse;
 }
@@ -340,9 +340,41 @@ a:active {
 
     .text {
         display: center;
-        font-weight: 200;
-        font-size: 15px;
+        font-weight: 10;
+        font-size: 18px;
+        letter-spacing: 1px;
+        padding: 30px;
+        transform: scale(1);
+
+
+        text-transform: uppercase;
+
+    }
+
+    s .text:before,
+    .text:after {
+        padding: 0px;
+        content: attr(data-text);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: black;
+        overflow: hidden;
+        top: 0;
     }
 
 
+
+    .text:before {
+        left: 1px;
+        text-shadow: -1px 0 rgb(105, 105, 105);
+        animation: glitch-1 3s infinite reverse;
+    }
+
+    .text:after {
+
+        left: -1px;
+        text-shadow: -1px 0 rgb(255, 255, 255);
+        animation: glitch-2 3s linear infinite reverse;
+    }
 }
