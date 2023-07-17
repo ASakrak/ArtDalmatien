@@ -331,12 +331,23 @@ a:active {
 
 @media (max-width: 375px) {
 
+    .header {
+        font-weight: 1;
+        font-size: 9px;
+        display: center;
+        letter-spacing: 1px;
+    }
 
 
     .test {
         padding: 250px 0;
     }
 
+    .h1 {
+        font-weight: 10;
+        font-size: 1px;
+        letter-spacing: 1px;
+    }
 
     .hh1 {}
 
