@@ -332,10 +332,10 @@ a:active {
 @media (max-width: 375px) {
 
     .header {
-        font-weight: 1;
-        font-size: 9px;
+        font-weight: 0;
+        font-size: 8.7px;
         display: center;
-        letter-spacing: 1px;
+        letter-spacing: 0px;
     }
 
 
